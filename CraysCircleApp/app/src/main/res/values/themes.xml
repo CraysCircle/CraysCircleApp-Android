@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CraysCircle" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- SplashScreen theme for Android 12+ -->
+    <style name="Theme.CraysCircle.Splash" parent="Theme.CraysCircle">
+        <item name="android:windowSplashScreenBackground">@color/background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/app_logo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/background</item>
+        <item name="android:windowSplashScreenAnimationDuration">300</item>
+        <item name="android:windowSplashScreenBrandingImage">@null</item>
+    </style>
+</resources>
